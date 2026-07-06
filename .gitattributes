@@ -4,7 +4,7 @@
 * text=auto eol=lf
 
 # GitHub Linguist
-*.json linguist-language="JSON with Comments"
+*.json linguist-language=jsonc
 *.mcpack linguist-generated=true
 *.mcaddon linguist-generated=true
 build/** linguist-generated=true
