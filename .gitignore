@@ -1,0 +1,85 @@
+# Bedrock Horizons
+
+# Operating System
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+
+# IDEs & Editors
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# JetBrains
+.idea/
+
+# Nova
+.nova/
+
+# Bridge v2
+.bridge/
+bridge.json.bak
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+.cache/
+.cache-loader/
+*.tmp
+*.temp
+
+# Build Output
+build/
+dist/
+release/
+out/
+bin/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Environment Files
+.env
+.env.*
+
+# Testing
+coverage/
+
+# Backup Files
+*.bak
+*.old
+*.orig
+*.backup
+
+# Minecraft Export Files
+*.mcpack
+*.mcaddon
+*.zip.mcpack
+*.zip.mcaddon
+
+# Local Testing Worlds
+test_world/
+testing/
