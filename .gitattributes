@@ -1,0 +1,51 @@
+# Bedrock Horizons
+
+# Normalize line endings
+* text=auto eol=lf
+
+# GitHub Linguist
+*.json linguist-language=JavaScript
+*.mcpack linguist-generated=true
+*.mcaddon linguist-generated=true
+build/** linguist-generated=true
+dist/** linguist-generated=true
+release/** linguist-generated=true
+
+# Text Files
+*.json text
+*.js text
+*.ts text
+*.md text
+*.txt text
+*.yml text
+*.yaml text
+*.mcmeta text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.tga binary
+*.dds binary
+*.ico binary
+
+# Audio
+*.ogg binary
+*.wav binary
+*.mp3 binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Minecraft Packages
+*.mcpack binary
+*.mcaddon binary
+
+# Scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
