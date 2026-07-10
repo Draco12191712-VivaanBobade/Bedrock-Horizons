@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Bedrock Horizons Banner](textures/ui/title.png)
 
 ### A complete visual overhaul for Minecraft: Bedrock Edition.
 
@@ -11,14 +10,9 @@ Modern lighting • Dynamic fog • Enhanced water • Custom atmospherics • B
 ---
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock%20Edition-5E9C31?style=for-the-badge&logo=minecraft&logoColor=white)
-![Version](https://img.shields.io/github/v/release/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
-![Downloads](https://img.shields.io/github/downloads/Draco12191712-VivaanBobade/Bedrock-Horizons/total?style=for-the-badge)
 ![License](https://img.shields.io/badge/Code-MPL--2.0-orange?style=for-the-badge)
 
 ![Assets License](https://img.shields.io/badge/Textures-CC%20BY--NC--SA%204.0-blue?style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
 
 </div>
 
