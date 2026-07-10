@@ -1,19 +1,24 @@
-<div align="center">
-
 # Bedrock Horizons
 
-### A cinematic visual overhaul for Minecraft Bedrock Edition.
+<div align="center">
 
-Experience Minecraft like never before with breathtaking lighting, immersive atmospheres, beautiful skies, enhanced water, and refined vanilla visuals.
+![Bedrock Horizons Banner](textures/ui/title.png)
 
-> **Currently in early development.**
+### A complete visual overhaul for Minecraft: Bedrock Edition.
+
+Modern lighting • Dynamic fog • Enhanced water • Custom atmospherics • Beautiful color grading • Vanilla-friendly visuals
 
 ---
 
-![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.26.0-brightgreen)
-![Platform](https://img.shields.io/badge/Platform-Bedrock-blue)
-![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
+![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock%20Edition-5E9C31?style=for-the-badge&logo=minecraft&logoColor=white)
+![Version](https://img.shields.io/github/v/release/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/Draco12191712-VivaanBobade/Bedrock-Horizons/total?style=for-the-badge)
+![License](https://img.shields.io/badge/Code-MPL--2.0-orange?style=for-the-badge)
+
+![Assets License](https://img.shields.io/badge/Textures-CC%20BY--NC--SA%204.0-blue?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Draco12191712-VivaanBobade/Bedrock-Horizons?style=for-the-badge)
 
 </div>
 
@@ -21,179 +26,124 @@ Experience Minecraft like never before with breathtaking lighting, immersive atm
 
 # Features
 
-Bedrock Horizons aims to become one of the most advanced visual enhancement packs for Minecraft Bedrock Edition while preserving the vanilla aesthetic.
+Bedrock Horizons enhances Minecraft's visuals while preserving the vanilla gameplay experience.
 
 ## Lighting
 
-- Dynamic day/night lighting
-- Beautiful sunrises and sunsets
+- Completely redesigned sunlight
 - Improved moonlight
+- Enhanced Nether lighting
+- Improved End lighting
+- Biome-specific lighting presets
+- Smooth day/night transitions
+
+## Fog
+
+- Custom fog for nearly every biome
 - Atmospheric caves
-- Enhanced block lighting
-- Smooth lighting transitions
+- Dynamic Nether fog
+- End ambience
+- Distance-based visibility improvements
 
-## Atmosphere
+## Color Grading
 
-- Cinematic skies
-- Improved clouds
-- Volumetric-inspired fog
-- Biome-specific atmosphere
-- Better weather effects
+- Forests
+- Cherry Groves
+- Pale Garden
+- Deep Dark
+- Oceans
+- Deserts
+- Snow biomes
+- Swamps
+- Nether biomes
+- End dimension
 
 ## Water
 
-- Improved water appearance
-- Reflections
-- Better underwater visuals
-- Enhanced rivers and oceans
+- Crystal-clear oceans
+- Swamp water presets
+- Desert water
+- Improved underwater appearance
+- Custom caustics
 
-## Dimensions
+## Atmosphere
 
-### Nether
-
-- Custom atmosphere
-- Better lava lighting
-- Dense fog
-- Heat-inspired visuals
-
-### The End
-
-- Custom sky
-- Alien atmosphere
-- Improved ambient lighting
-
-## Visual Enhancements
-
-- Color grading
-- Bloom
-- Wind effects
-- Better particles
-- Refined vanilla textures
-- Connected glass
-- Future animation improvements
+- Better clouds
+- Improved sky colors
+- Better sun
+- Better moon
+- Caustics
+- Enhanced shadows
 
 ---
 
-# Development Roadmap
+# Screenshots
 
-## Phase 1
-- [ ] Dynamic Lighting
-- [ ] Atmosphere System
-- [ ] Fog
-- [ ] Sky
-- [ ] Water
-
-## Phase 2
-- [ ] Materials
-- [ ] Texture Sets
-- [ ] Render Controllers
-- [ ] Color Grading
-
-## Phase 3
-- [ ] Weather
-- [ ] Nether Overhaul
-- [ ] End Overhaul
-- [ ] Particle Effects
-
-## Phase 4
-- [ ] Connected Glass
-- [ ] Refined Textures
-- [ ] Better Fire
-- [ ] Better Water
-
-## Phase 5
-- [ ] Mob Animations
-- [ ] Ambient Details
-- [ ] Fireflies
-- [ ] Falling Leaves
-- [ ] Polish
+> Screenshots coming soon.
 
 ---
 
-# Project Structure
+# Installation
 
-```
-RP/
-│
-├── atmosphere_settings/
-├── color_grading_settings/
-├── cubemap_settings/
-├── fog/
-├── lighting/
-├── materials/
-├── particles/
-├── render_controllers/
-├── texture_sets/
-├── textures/
-├── ui/
-├── water_settings/
-│
-├── manifest.json
-└── pack_icon.png
-```
+1. Download the latest release.
+2. Import the Resource Pack into Minecraft.
+3. Activate the pack.
+4. Place it near the top of your Resource Pack stack.
+5. Enable any optional subpacks if available.
 
 ---
 
-# Vision
+# Compatibility
 
-Bedrock Horizons is designed to enhance Minecraft without changing its identity.
-
-The goal is not realism.
-
-The goal is **cinematic vanilla**.
-
-Every sunrise should feel warm.
-
-Every cave should feel mysterious.
-
-Every biome should have its own atmosphere.
-
-Minecraft should still look like Minecraft—just more alive.
-
----
-
-# Requirements
-
-- Minecraft Bedrock Edition **1.26.0+**
-- Render Dragon Features for Creators
-- Deferred Rendering Compatible Device
-
----
-
-# License
-
-**Copyright © 2026 Nova Studios**
-
-Created by **Draco12191712 (Vivaan Bobade)**
-
-All Rights Reserved.
-
-This project is proprietary.
-
-See **LICENSE.txt** for the complete license.
+| Feature | Supported |
+|---------|-----------|
+| Minecraft Bedrock | ✅ |
+| RenderDragon | ✅ |
+| Realms | ✅ |
+| Multiplayer | ✅ |
+| Windows | ✅ |
+| Android | ✅ |
+| iOS | ✅ |
 
 ---
 
 # Contributing
 
-This project is currently closed source.
+Contributions are welcome!
 
-Bug reports, suggestions, and feature ideas are always welcome through GitHub Issues.
+If you'd like to improve Bedrock Horizons:
+
+- Fork the repository.
+- Create a feature branch.
+- Commit your changes.
+- Open a Pull Request.
+
+Please read the project's contribution guidelines before submitting changes.
 
 ---
 
-# Project Status
+# Licensing
 
-This project is currently in **Pre-Alpha**.
+This repository uses a dual-license model.
 
-Everything is subject to change.
+| Content | License |
+|---------|---------|
+| Source Code | Mozilla Public License 2.0 |
+| Textures & Artwork | CC BY-NC-SA 4.0 |
 
+See **LICENSE.md** for full details.
+
+---
+
+# Credits
+
+Created and maintained by **Draco12191712 (Vivaan Bobade)**.
+
+Contact me [here](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWQDBLWbvRTncTlDvfxdcbpvbtbRcFDSJjfMDmkGXgvzlrvqrWvtjSTwhtLfRqtZthVqq) 
 ---
 
 <div align="center">
 
-## Bedrock Horizons
-
-**See Minecraft through a new horizon.**
+### If you enjoy Bedrock Horizons, consider giving the repository a star!
 
 </div>
