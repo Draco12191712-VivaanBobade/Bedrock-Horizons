@@ -1,44 +1,126 @@
-Bedrock Horizons
-Copyright © 2026 Nova Studios
-Created by Draco12191712 (Vivaan Bobade)
+Bedrock Horizons License
 
-All Rights Reserved.
+Copyright © 2026 Bedrock Horizons Contributors
 
-This project, including but not limited to its source code, JSON files, shaders, lighting configurations, textures, models, animations, sounds, documentation, artwork, logos, and all other assets, is proprietary and protected by copyright law.
+Bedrock Horizons uses a dual-license model because different parts of the project are intended to be shared under different terms.
 
-Permission is granted to download and use official releases of Bedrock Horizons for personal, non-commercial use only.
+⸻
 
-Unless explicitly permitted in writing by the copyright holder, you may NOT:
+Source Code
 
-• Redistribute this project or any part of it.
-• Reupload this project to any website, repository, or file-hosting service.
-• Modify and distribute modified versions of this project.
-• Copy, reuse, or incorporate any source code, assets, textures, shaders, lighting configurations, animations, models, documentation, or other materials into another project.
-• Sell, sublicense, rent, or commercially exploit this project or any portion of it.
-• Remove or alter copyright notices, author credits, or branding.
+Unless otherwise stated, all source code, including but not limited to:
 
-You MAY:
+* JSON files
+* Render controllers
+* Material definitions
+* Configuration files
+* Build tools
+* Documentation source
 
-• Download official releases from authorized sources.
-• Use the project for personal gameplay.
-• Create videos, screenshots, livestreams, and reviews featuring Bedrock Horizons, provided proper credit is given.
-• Report bugs and suggest improvements.
+is licensed under the Mozilla Public License Version 2.0 (MPL-2.0).
 
-Contributions
+You are free to:
 
-Contributions are accepted only through the official GitHub repository and become part of the project upon acceptance. By submitting a contribution, you grant Nova Studios a perpetual, worldwide, non-exclusive, royalty-free license to use, modify, distribute, and sublicense your contribution as part of Bedrock Horizons. You retain copyright to your original contribution unless otherwise agreed in writing.
+* Use
+* Modify
+* Distribute
+* Fork
 
-Official Sources
+provided that any modifications to MPL-covered files remain available under the MPL-2.0.
 
-Only the following locations are considered official distributions of Bedrock Horizons unless otherwise announced by Nova Studios:
+A copy of the license can be found in:
 
-• Official GitHub Repository
-• Official GitHub Releases
-• Official CurseForge Page
-• Other locations explicitly published by Nova Studios
+LICENSES/MPL-2.0.txt
 
-Disclaimer
+or online at:
 
-This software is provided "AS IS", without warranty of any kind, express or implied. The authors shall not be liable for any damages arising from the use of this software.
+https://mozilla.org/MPL/2.0/
 
-Minecraft is a trademark of Mojang AB. Bedrock Horizons is an independent project and is not affiliated with, endorsed by, or sponsored by Mojang AB or Microsoft.
+⸻
+
+Art Assets
+
+Unless otherwise stated, all visual and audio assets are licensed separately.
+
+This includes, but is not limited to:
+
+* Textures
+* UI textures
+* Icons
+* Sprites
+* Cubemaps
+* Sky textures
+* Clouds
+* Water textures
+* Caustics
+* Color grading LUTs
+* Images
+* Logos
+* Artwork
+* Sounds
+* Music
+
+These assets are licensed under the:
+
+Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+This means you may:
+
+* Share the assets
+* Modify the assets
+* Redistribute modified versions
+
+provided that you:
+
+* Give appropriate credit.
+* Do not use the assets commercially.
+* License derivative works under the same license.
+
+The full license is available in:
+
+LICENSES/CC-BY-NC-SA-4.0.txt
+
+or online at:
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+⸻
+
+Third-Party Content
+
+Third-party libraries, code, textures, fonts, sounds, or other assets remain the property of their respective owners and are subject to their own licenses.
+
+Their licenses are included where required.
+
+⸻
+
+Trademark
+
+The names Bedrock Horizons, its logo, branding, artwork, and associated project identity are not licensed under either MPL-2.0 or CC BY-NC-SA 4.0.
+
+You may not use the project’s branding in a way that implies official endorsement or affiliation without permission.
+
+⸻
+
+Contributing
+
+By contributing to this repository, you agree that:
+
+* Source code contributions are licensed under MPL-2.0.
+* Art asset contributions are licensed under CC BY-NC-SA 4.0.
+* You have the legal right to contribute your work.
+
+⸻
+
+Summary
+
+Content	License
+Source Code	Mozilla Public License 2.0
+Textures	CC BY-NC-SA 4.0
+Artwork	CC BY-NC-SA 4.0
+UI Assets	CC BY-NC-SA 4.0
+Sounds	CC BY-NC-SA 4.0
+Music	CC BY-NC-SA 4.0
+Documentation Source	MPL-2.0
+
+Thank you for respecting the licenses that help keep Bedrock Horizons open while protecting its creative assets.
