@@ -1,11 +1,10 @@
 # Bedrock Horizons
 
 <div align="center">
+<img width="1024" height="256" alt="title" src="https://github.com/user-attachments/assets/b0198334-7d8a-4357-a586-50829b753fad" />
 
 
 ### A complete visual overhaul for Minecraft: Bedrock Edition.
-
-Modern lighting • Dynamic fog • Enhanced water • Custom atmospherics • Beautiful color grading • Vanilla-friendly visuals
 
 ---
 
