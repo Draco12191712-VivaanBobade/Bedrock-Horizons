@@ -9,7 +9,7 @@
                 "sky_color": "#5F93A3"
             },
             "minecraft:fog_appearance": {
-                "fog_identifier": "bh:soul_fog"
+                "fog_identifier": "bh:warped_forest_fog"
             },
             "minecraft:color_grading_identifier": {
                 "color_grading_identifier": "bh:soul_color_grading"

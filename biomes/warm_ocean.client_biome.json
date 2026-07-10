@@ -9,7 +9,7 @@
                 "sky_color": "#8EE7FF"
             },
             "minecraft:fog_appearance": {
-                "fog_identifier": "bh:ocean_fog"
+                "fog_identifier": "bh:default_fog"
             },
             "minecraft:color_grading_identifier": {
                 "color_grading_identifier": "bh:ocean_color_grading"

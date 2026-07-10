@@ -9,7 +9,7 @@
                 "sky_color": "#99DFFF"
             },
             "minecraft:fog_appearance": {
-                "fog_identifier": "bh:sand_fog"
+                "fog_identifier": "bh:savanna_fog"
             },
             "minecraft:color_grading_identifier": {
                 "color_grading_identifier": "bh:sand_color_grading"
