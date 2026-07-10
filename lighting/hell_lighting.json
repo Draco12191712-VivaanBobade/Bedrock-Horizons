@@ -1,0 +1,60 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "bh:hell_lighting"
+    },
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.000000": 110.0,
+          "1.000000": 110.0
+        },
+        "color": {
+          "0.000000": [
+            255,
+            118,
+            25
+          ],
+          "1.000000": [
+            255,
+            118,
+            25
+          ]
+        }
+      },
+      "moon": {
+        "illuminance": {
+          "0.000000": 110.0,
+          "1.000000": 110.0
+        },
+        "color": {
+          "0.000000": [
+            255,
+            118,
+            25
+          ],
+          "1.000000": [
+            255,
+            118,
+            25
+          ]
+        }
+      }
+    },
+    "emissive": {
+      "desaturation": 0.05
+    },
+    "ambient": {
+      "illuminance": 0.75,
+      "color": [
+        185,
+        70,
+        28
+      ]
+    },
+    "sky": {
+      "intensity": 0.15
+    }
+  }
+}

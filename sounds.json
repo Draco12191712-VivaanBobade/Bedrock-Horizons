@@ -1,1 +1,27 @@
-{}
+{
+	"entity_sounds": {
+		"entities": {
+			"bh:cod": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.cod.hurt",
+					"hurt.in.water": "mob.cod.hurt",
+					"flop": {
+						"sound": "mob.cod.flop",
+						"volume": 1,
+						"pitch": 1
+					},
+					"step": {
+						"sound": "mob.cod.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			}
+		}
+	}
+}

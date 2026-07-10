@@ -1,0 +1,28 @@
+{
+	"format_version": "1.26.0",
+	"minecraft:client_biome": {
+		"description": {
+			"identifier": "beach"
+		},
+		"components": {
+			"minecraft:sky_color": {
+				"sky_color": "#82C9F5"
+			},
+			"minecraft:fog_appearance": {
+				"fog_identifier": "bh:sandy_desert_fog"
+			},
+			"minecraft:color_grading_identifier": {
+				"color_grading_identifier": "bh:beach_color_grading"
+			},
+			"minecraft:atmosphere_identifier": {
+				"atmosphere_identifier": "bh:sandy_atmospherics"
+			},
+			"minecraft:lighting_identifier": {
+				"lighting_identifier": "bh:beach_lighting"
+			},
+			"minecraft:water_appearance": {
+				"surface_color": "#2CA7D8"
+			}
+		}
+	}
+}

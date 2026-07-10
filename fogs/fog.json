@@ -1,0 +1,90 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:fog_settings": {
+        "description": {
+            "identifier": "bh:default_fog"
+        },
+        "distance": {
+            "air": {
+                "fog_start": 0.97,
+                "fog_end": 1,
+                "fog_color": "#C9DCF5",
+                "render_distance_type": "render"
+            },
+            "water": {
+                "fog_start": 0,
+                "fog_end": 160,
+                "fog_color": "#2a2d59",
+                "render_distance_type": "fixed"
+            },
+            "weather": {
+                "fog_start": 0.17,
+                "fog_end": 0.7,
+                "fog_color": "#555C66",
+                "render_distance_type": "render"
+            }
+        },
+        "volumetric": {
+            "density": {
+                "air": {
+                    "max_density": 0.0185,
+                    "uniform": true
+                },
+                "water": {
+                    "max_density": 0.002,
+                    "uniform": true
+                },
+                "weather": {
+                    "max_density": 0.16,
+                    "uniform": true
+                }
+            },
+            "media_coefficients": {
+                "air": {
+                    "scattering": [
+                        0.082,
+                        0.088,
+                        0.096
+                    ],
+                    "absorption": [
+                        0.01,
+                        0.03,
+                        0.006
+                    ]
+                },
+                "water": {
+                    "scattering": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "absorption": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "cloud": {
+                    "scattering": [
+                        0.01,
+                        0.015,
+                        0.02
+                    ],
+                    "absorption": [
+                        0.45,
+                        0.45,
+                        0.45
+                    ]
+                }
+            },
+            "henyey_greenstein_g": {
+                "air": {
+                    "henyey_greenstein_g": 0.62
+                },
+                "water": {
+                    "henyey_greenstein_g": 0.6
+                }
+            }
+        }
+    }
+}

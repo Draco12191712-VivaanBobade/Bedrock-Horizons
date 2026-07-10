@@ -1,0 +1,99 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:color_grading_settings": {
+        "description": {
+            "identifier": "bh:warped_forest_color_grading"
+        },
+        "color_grading": {
+            "highlights": {
+                "highlightsMin": 8,
+                "enabled": true,
+                "contrast": [
+                    1.10,
+                    1.10,
+                    1.10
+                ],
+                "saturation": [
+                    1.08,
+                    1.08,
+                    1.08
+                ],
+                "gain": [
+                    0.78,
+                    1.18,
+                    1.30
+                ],
+                "offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "gamma": [
+                    2.46,
+                    2.46,
+                    2.46
+                ]
+            },
+            "midtones": {
+                "midtonesMax": 60,
+                "contrast": [
+                    1.10,
+                    1.10,
+                    1.10
+                ],
+                "saturation": [
+                    1.06,
+                    1.06,
+                    1.06
+                ],
+                "gain": [
+                    0.74,
+                    1.16,
+                    1.32
+                ],
+                "offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "gamma": [
+                    2.44,
+                    2.44,
+                    2.44
+                ]
+            },
+            "shadows": {
+                "shadowsMax": 0.4,
+                "enabled": true,
+                "contrast": [
+                    1.10,
+                    1.10,
+                    1.10
+                ],
+                "saturation": [
+                    1.02,
+                    1.02,
+                    1.02
+                ],
+                "gain": [
+                    0.65,
+                    1.08,
+                    1.36
+                ],
+                "offset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "gamma": [
+                    2.40,
+                    2.40,
+                    2.40
+                ]
+            }
+        },
+        "tone_mapping": {
+            "operator": "aces"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:atmosphere_settings": {
+    "description": {
+      "identifier": "bh:warped_forest_atmospherics"
+    },
+    "sky_zenith_color": {
+      "0.0": [
+        5,
+        115,
+        95
+      ],
+      "1.0": [
+        5,
+        115,
+        95
+      ]
+    },
+    "sky_horizon_color": {
+      "0.0": [
+        20,
+        245,
+        171
+      ],
+      "1.0": [
+        20,
+        245,
+        171
+      ]
+    },
+    "horizon_blend_stops": {
+      "min": 0.3,
+      "start": 0.700000011920929,
+      "mie_start": 0.9,
+      "max": 0.6
+    },
+    "rayleigh_strength": {
+      "0.0": 0.25,
+      "1.000000": 0.25
+    }
+  }
+}
