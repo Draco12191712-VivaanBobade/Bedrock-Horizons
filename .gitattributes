@@ -4,7 +4,8 @@
 * text=auto eol=lf
 
 # GitHub Linguist
-*.json linguist-language=jsonc
+*.json linguist-language=JavaScript
+*.jsonc linguist-language=JavaScript
 *.mcpack linguist-generated=true
 *.mcaddon linguist-generated=true
 build/** linguist-generated=true
