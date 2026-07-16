@@ -1,28 +1,28 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:client_biome": {
-        "description": {
-            "identifier": "crimson_forest"
-        },
-        "components": {
-            "minecraft:sky_color": {
-                "sky_color": "#5A1018"
-            },
-            "minecraft:fog_appearance": {
-                "fog_identifier": "bh:crimson_forest_fog"
-            },
-            "minecraft:color_grading_identifier": {
-                "color_grading_identifier": "bh:crimson_forest_color_grading"
-            },
-            "minecraft:atmosphere_identifier": {
-                "atmosphere_identifier": "bh:crimson_forest_atmospherics"
-            },
-            "minecraft:lighting_identifier": {
-                "lighting_identifier": "bh:crimson_forest_lighting"
-            },
-            "minecraft:water_appearance": {
-                "surface_color": "#5C171B"
-            }
-        }
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "crimson_forest"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#5A1018"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:crimson_forest_fog"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:crimson_forest_color_grading"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:crimson_forest_atmospherics"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:crimson_forest_lighting"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#5C171B"
+      }
     }
+  }
 }

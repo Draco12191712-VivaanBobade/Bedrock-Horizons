@@ -1,28 +1,28 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:client_biome": {
-        "description": {
-            "identifier": "dripstone_caves"
-        },
-        "components": {
-            "minecraft:sky_color": {
-                "sky_color": "#8CB6D4"
-            },
-            "minecraft:fog_appearance": {
-                "fog_identifier": "bh:default_fog"
-            },
-            "minecraft:color_grading_identifier": {
-                "color_grading_identifier": "bh:dripstone_caves_color_grading"
-            },
-            "minecraft:atmosphere_identifier": {
-                "atmosphere_identifier": "bh:default_atmospherics"
-            },
-            "minecraft:lighting_identifier": {
-                "lighting_identifier": "bh:dripstone_caves_lighting"
-            },
-            "minecraft:water_appearance": {
-                "surface_color": "#4A7FA8"
-            }
-        }
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "dripstone_caves"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#8CB6D4"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:default_fog"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:dripstone_cave_color_grading"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:default_atmospherics"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:dripstone_caves_lighting"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#4A7FA8"
+      }
     }
+  }
 }
