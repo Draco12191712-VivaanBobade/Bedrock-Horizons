@@ -83,3 +83,7 @@ coverage/
 # Local Testing Worlds
 test_world/
 testing/
+
+
+# some unneeded files that i kept solely for development
+*.txt
