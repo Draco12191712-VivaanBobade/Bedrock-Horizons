@@ -18,7 +18,7 @@
         "atmosphere_identifier": "bh:default_atmospherics"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "bh:deep_cold_ocean_lighting"
+        "lighting_identifier": "bh:default_lighting"
       },
       "minecraft:water_appearance": {
         "surface_color": "#1E5A7A"
