@@ -1,12 +1,43 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:lighting_settings": {
-        "description": { "identifier": "bh:basalt_deltas_lighting" },
-        "directional_lights": {
-            "sun": { "illuminance": { "0.000000": 100, "1.000000": 100 }, "color": { "0.000000": [ 255, 140, 12 ], "1.000000": [ 255, 140, 12 ]}},
-            "moon": { "illuminance": { "0.000000": 100, "1.000000": 100 }, "color": { "0.000000": [ 255, 255, 255 ], "1.000000": [ 255, 255, 255 ]}}
+  "format_version": "1.26.0",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "bh:basalt_deltas_lighting"
+    },
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.000000": 35,
+          "0.250000": 85,
+          "0.500000": 120,
+          "0.750000": 85,
+          "1.000000": 35
         },
-        "ambient": { "color": [ 255, 132, 5 ], "illuminance": 1.5 },
-        "sky": { "intensity": 1 }
+        "color": {
+          "0.000000": [255, 90, 45],
+          "0.250000": [255, 150, 70],
+          "0.500000": [255, 190, 110],
+          "0.750000": [255, 150, 70],
+          "1.000000": [255, 90, 45]
+        }
+      },
+      "moon": {
+        "illuminance": {
+          "0.000000": 2,
+          "1.000000": 2
+        },
+        "color": {
+          "0.000000": [120, 80, 170],
+          "1.000000": [120, 80, 170]
+        }
+      }
+    },
+    "ambient": {
+      "color": [90, 45, 35],
+      "illuminance": 0.45
+    },
+    "sky": {
+      "intensity": 0.75
     }
+  }
 }
