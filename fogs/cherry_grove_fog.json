@@ -1,60 +1,60 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:fog_settings": {
-        "description": {
-            "identifier": "bh:cherry_grove_fog"
-        },
-        "distance": {
-            "air": {
-                "fog_start": 0.9999,
-                "fog_end": 1,
-                "fog_color": "#f4d6df",
-                "render_distance_type": "render"
-            },
-            "water": {
-                "fog_start": 0,
-                "fog_end": 160,
-                "fog_color": "#6b4f6f",
-                "render_distance_type": "fixed"
-            },
-            "weather": {
-                "fog_start": 0.17,
-                "fog_end": 0.7,
-                "fog_color": "#000000",
-                "render_distance_type": "render"
-            }
-        },
-        "volumetric": {
-            "density": {
-                "air": {
-                    "max_density": 0.058,
-                    "uniform": false,
-                    "max_density_height": 118,
-                    "zero_density_height": 190
-                }
-            },
-            "media_coefficients": {
-                "air": {
-                    "scattering": [
-                        0.125,
-                        0.108,
-                        0.103
-                    ],
-                    "absorption": [
-                        0.012,
-                        0.008,
-                        0.006
-                    ]
-                }
-            },
-            "henyey_greenstein_g": {
-                "air": {
-                    "henyey_greenstein_g": 0.78
-                },
-                "water": {
-                    "henyey_greenstein_g": 0.63
-                }
-            }
+  "format_version": "1.26.0",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "bh:cherry_grove_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 45,
+        "fog_end": 260,
+        "fog_color": "#e8cbd2",
+        "render_distance_type": "fixed"
+      },
+
+      "water": {
+        "fog_start": 0,
+        "fog_end": 120,
+        "fog_color": "#72536f",
+        "render_distance_type": "fixed"
+      },
+
+      "weather": {
+        "fog_start": 0.08,
+        "fog_end": 0.55,
+        "fog_color": "#d9c0ca",
+        "render_distance_type": "render"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.075,
+          "uniform": false,
+          "max_density_height": 90,
+          "zero_density_height": 210
         }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.145, 0.095, 0.115],
+
+          "absorption": [0.01, 0.006, 0.008]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.52
+        },
+
+        "water": {
+          "henyey_greenstein_g": 0.45
+        }
+      }
     }
+  }
 }

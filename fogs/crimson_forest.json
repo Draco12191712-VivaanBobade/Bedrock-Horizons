@@ -1,50 +1,63 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:fog_settings": {
-        "description": {
-            "identifier": "bh:crimson_forest_fog"
+  "format_version": "1.26.0",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "bh:crimson_forest_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 35,
+        "fog_end": 180,
+        "fog_color": "#8f2638",
+        "render_distance_type": "fixed"
+      },
+      "water": {
+        "fog_start": 0,
+        "fog_end": 80,
+        "fog_color": "#4d1018",
+        "render_distance_type": "fixed"
+      },
+      "weather": {
+        "fog_start": 0.15,
+        "fog_end": 0.65,
+        "fog_color": "#6b1728",
+        "render_distance_type": "render"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.085,
+          "uniform": false,
+          "max_density_height": 96,
+          "zero_density_height": 220
         },
-        "distance": {
-            "air": {
-                "fog_start": 56,
-                "fog_end": 224,
-                "fog_color": "#bf243f",
-                "render_distance_type": "fixed"
-            }
-        },
-        "volumetric": {
-            "density": {
-                "air": {
-                    "max_density": 0.092,
-                    "uniform": true
-                },
-                "water": {
-                    "max_density": 1,
-                    "uniform": true
-                }
-            },
-            "media_coefficients": {
-                "air": {
-                    "scattering": [
-                        0.052,
-                        0.026,
-                        0.014
-                    ],
-                    "absorption": [
-                        0,
-                        0.055,
-                        0.185
-                    ]
-                }
-            }
-        },
-        "henyey_greenstein_g": {
-            "air": {
-                "henyey_greenstein_g": 0.42
-            },
-            "water": {
-                "henyey_greenstein_g": 0.34
-            }
+
+        "water": {
+          "max_density": 1,
+          "uniform": true
         }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.095, 0.035, 0.025],
+
+          "absorption": [0.008, 0.045, 0.085]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.72
+        },
+
+        "water": {
+          "henyey_greenstein_g": 0.45
+        }
+      }
     }
+  }
 }
