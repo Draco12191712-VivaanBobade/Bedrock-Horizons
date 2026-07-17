@@ -1,99 +1,39 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:color_grading_settings": {
-        "description": {
-            "identifier": "bh:mushroom_island_color_grading"
-        },
-        "color_grading": {
-            "highlights": {
-                "highlightsMin": 18,
-                "enabled": true,
-                "contrast": [
-                    1.12,
-                    1.12,
-                    1.12
-                ],
-                "saturation": [
-                    1.08,
-                    1.08,
-                    1.08
-                ],
-                "gain": [
-                    1.22,
-                    1.10,
-                    0.92
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.50,
-                    2.50,
-                    2.50
-                ]
-            },
-            "midtones": {
-                "midtonesMax": 60,
-                "contrast": [
-                    1.08,
-                    1.08,
-                    1.08
-                ],
-                "saturation": [
-                    1.06,
-                    1.06,
-                    1.06
-                ],
-                "gain": [
-                    1.18,
-                    1.05,
-                    0.94
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.48,
-                    2.48,
-                    2.48
-                ]
-            },
-            "shadows": {
-                "shadowsMax": 0.4,
-                "enabled": true,
-                "contrast": [
-                    1.10,
-                    1.10,
-                    1.10
-                ],
-                "saturation": [
-                    1.02,
-                    1.02,
-                    1.02
-                ],
-                "gain": [
-                    1.05,
-                    0.98,
-                    0.90
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.46,
-                    2.46,
-                    2.46
-                ]
-            }
-        },
-        "tone_mapping": {
-            "operator": "aces"
-        }
+  "format_version": "1.26.0",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "bh:mushroom_island_color_grading"
+    },
+    "color_grading": {
+      "highlights": {
+        "highlightsMin": 18,
+        "enabled": true,
+        "contrast": [1.08, 1.08, 1.08],
+        "saturation": [1.12, 1.1, 1.12],
+        "gain": [1.18, 1.08, 1.12],
+        "offset": [0.0, 0.0, 0.0],
+        "gamma": [2.4, 2.4, 2.4]
+      },
+      "midtones": {
+        "midtonesMax": 60,
+        "contrast": [1.08, 1.08, 1.08],
+        "saturation": [1.1, 1.08, 1.1],
+        "gain": [1.12, 1.04, 1.1],
+        "offset": [0.0, 0.0, 0.0],
+        "gamma": [2.38, 2.38, 2.38]
+      },
+      "shadows": {
+        "shadowsMax": 0.4,
+        "enabled": true,
+        "contrast": [1.1, 1.1, 1.1],
+        "saturation": [1.05, 1.06, 1.08],
+        "gain": [0.98, 0.96, 1.06],
+        "offset": [0.0, 0.0, 0.0],
+        "gamma": [2.34, 2.34, 2.34]
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
     }
+  }
 }

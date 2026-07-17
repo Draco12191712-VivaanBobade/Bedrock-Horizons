@@ -1,99 +1,39 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:color_grading_settings": {
-        "description": {
-            "identifier": "bh:crimson_forest_color_grading"
-        },
-        "color_grading": {
-            "highlights": {
-                "highlightsMin": 20,
-                "enabled": true,
-                "contrast": [
-                    1.14,
-                    1.14,
-                    1.14
-                ],
-                "saturation": [
-                    1.02,
-                    1.02,
-                    1.02
-                ],
-                "gain": [
-                    1.24,
-                    0.96,
-                    0.82
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.46,
-                    2.46,
-                    2.46
-                ]
-            },
-            "midtones": {
-                "midtonesMax": 60,
-                "contrast": [
-                    1.14,
-                    1.14,
-                    1.14
-                ],
-                "saturation": [
-                    1.00,
-                    1.00,
-                    1.00
-                ],
-                "gain": [
-                    1.18,
-                    0.90,
-                    0.76
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.42,
-                    2.42,
-                    2.42
-                ]
-            },
-            "shadows": {
-                "shadowsMax": 0.4,
-                "enabled": true,
-                "contrast": [
-                    1.16,
-                    1.16,
-                    1.16
-                ],
-                "saturation": [
-                    0.98,
-                    0.98,
-                    0.98
-                ],
-                "gain": [
-                    0.95,
-                    0.68,
-                    0.56
-                ],
-                "offset": [
-                    -0.01,
-                    -0.01,
-                    -0.01
-                ],
-                "gamma": [
-                    2.38,
-                    2.38,
-                    2.38
-                ]
-            }
-        },
-        "tone_mapping": {
-            "operator": "aces"
-        }
+  "format_version": "1.26.0",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "bh:crimson_forest_color_grading"
+    },
+    "color_grading": {
+      "highlights": {
+        "highlightsMin": 20,
+        "enabled": true,
+        "contrast": [1.16, 1.14, 1.14],
+        "saturation": [1.16, 1.05, 1.02],
+        "gain": [1.22, 1.02, 0.88],
+        "offset": [0.015, 0.0, -0.01],
+        "gamma": [2.42, 2.44, 2.46]
+      },
+      "midtones": {
+        "midtonesMax": 60,
+        "contrast": [1.14, 1.12, 1.12],
+        "saturation": [1.12, 1.04, 1.02],
+        "gain": [1.14, 0.94, 0.82],
+        "offset": [0.008, 0.0, -0.01],
+        "gamma": [2.38, 2.4, 2.42]
+      },
+      "shadows": {
+        "shadowsMax": 0.4,
+        "enabled": true,
+        "contrast": [1.18, 1.16, 1.16],
+        "saturation": [1.06, 1.0, 0.98],
+        "gain": [0.92, 0.62, 0.54],
+        "offset": [-0.015, -0.008, -0.005],
+        "gamma": [2.34, 2.36, 2.38]
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
     }
+  }
 }

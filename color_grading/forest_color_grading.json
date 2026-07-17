@@ -1,99 +1,39 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:color_grading_settings": {
-        "description": {
-            "identifier": "bh:forest_color_grading"
-        },
-        "color_grading": {
-            "highlights": {
-                "highlightsMin": 20,
-                "enabled": true,
-                "contrast": [
-                    1.10,
-                    1.10,
-                    1.10
-                ],
-                "saturation": [
-                    1.06,
-                    1.08,
-                    1.04
-                ],
-                "gain": [
-                    1.18,
-                    1.22,
-                    1.16
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.53,
-                    2.53,
-                    2.53
-                ]
-            },
-            "midtones": {
-                "midtonesMax": 60,
-                "contrast": [
-                    1.10,
-                    1.10,
-                    1.10
-                ],
-                "saturation": [
-                    1.05,
-                    1.08,
-                    1.03
-                ],
-                "gain": [
-                    1.16,
-                    1.20,
-                    1.14
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.53,
-                    2.53,
-                    2.53
-                ]
-            },
-            "shadows": {
-                "shadowsMax": 0.4,
-                "enabled": true,
-                "contrast": [
-                    1.12,
-                    1.12,
-                    1.12
-                ],
-                "saturation": [
-                    1.03,
-                    1.06,
-                    1.04
-                ],
-                "gain": [
-                    1.02,
-                    1.10,
-                    1.16
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.50,
-                    2.50,
-                    2.50
-                ]
-            }
-        },
-        "tone_mapping": {
-            "operator": "aces"
-        }
+  "format_version": "1.26.0",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "bh:forest_color_grading"
+    },
+    "color_grading": {
+      "highlights": {
+        "highlightsMin": 20,
+        "enabled": true,
+        "contrast": [1.08, 1.08, 1.08],
+        "saturation": [1.1, 1.12, 1.06],
+        "gain": [1.16, 1.18, 1.12],
+        "offset": [0.0, 0.0, 0.0],
+        "gamma": [2.42, 2.42, 2.42]
+      },
+      "midtones": {
+        "midtonesMax": 60,
+        "contrast": [1.1, 1.1, 1.1],
+        "saturation": [1.08, 1.1, 1.05],
+        "gain": [1.12, 1.16, 1.1],
+        "offset": [0.0, 0.0, 0.0],
+        "gamma": [2.4, 2.4, 2.4]
+      },
+      "shadows": {
+        "shadowsMax": 0.4,
+        "enabled": true,
+        "contrast": [1.14, 1.14, 1.14],
+        "saturation": [1.04, 1.06, 1.08],
+        "gain": [0.98, 1.06, 1.1],
+        "offset": [0.0, 0.0, 0.0],
+        "gamma": [2.35, 2.35, 2.35]
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
     }
+  }
 }

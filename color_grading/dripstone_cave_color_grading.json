@@ -1,99 +1,39 @@
 {
-    "format_version": "1.26.0",
-    "minecraft:color_grading_settings": {
-        "description": {
-            "identifier": "bh:dripstone_cave_color_grading"
-        },
-        "color_grading": {
-            "highlights": {
-                "highlightsMin": 20,
-                "enabled": true,
-                "contrast": [
-                    1.12,
-                    1.12,
-                    1.12
-                ],
-                "saturation": [
-                    1.02,
-                    1.02,
-                    1.02
-                ],
-                "gain": [
-                    1.24,
-                    1.12,
-                    0.92
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.50,
-                    2.50,
-                    2.50
-                ]
-            },
-            "midtones": {
-                "midtonesMax": 60,
-                "contrast": [
-                    1.11,
-                    1.11,
-                    1.11
-                ],
-                "saturation": [
-                    1.01,
-                    1.01,
-                    1.01
-                ],
-                "gain": [
-                    1.18,
-                    1.08,
-                    0.90
-                ],
-                "offset": [
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                "gamma": [
-                    2.48,
-                    2.48,
-                    2.48
-                ]
-            },
-            "shadows": {
-                "shadowsMax": 0.4,
-                "enabled": true,
-                "contrast": [
-                    1.14,
-                    1.14,
-                    1.14
-                ],
-                "saturation": [
-                    0.98,
-                    0.98,
-                    0.98
-                ],
-                "gain": [
-                    0.96,
-                    0.88,
-                    0.78
-                ],
-                "offset": [
-                    -0.01,
-                    -0.01,
-                    -0.01
-                ],
-                "gamma": [
-                    2.42,
-                    2.42,
-                    2.42
-                ]
-            }
-        },
-        "tone_mapping": {
-            "operator": "aces"
-        }
+  "format_version": "1.26.0",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "bh:dripstone_cave_color_grading"
+    },
+    "color_grading": {
+      "highlights": {
+        "highlightsMin": 20,
+        "enabled": true,
+        "contrast": [1.16, 1.15, 1.14],
+        "saturation": [1.08, 1.05, 1.02],
+        "gain": [1.16, 1.08, 0.96],
+        "offset": [0.012, 0.006, 0.0],
+        "gamma": [2.42, 2.44, 2.46]
+      },
+      "midtones": {
+        "midtonesMax": 60,
+        "contrast": [1.15, 1.14, 1.14],
+        "saturation": [1.06, 1.04, 1.02],
+        "gain": [1.1, 1.04, 0.94],
+        "offset": [0.008, 0.004, 0.0],
+        "gamma": [2.4, 2.42, 2.44]
+      },
+      "shadows": {
+        "shadowsMax": 0.4,
+        "enabled": true,
+        "contrast": [1.18, 1.18, 1.2],
+        "saturation": [1.02, 1.02, 1.05],
+        "gain": [0.86, 0.82, 0.88],
+        "offset": [-0.008, -0.004, 0.01],
+        "gamma": [2.36, 2.38, 2.42]
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
     }
+  }
 }
