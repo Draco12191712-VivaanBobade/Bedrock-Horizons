@@ -1,0 +1,145 @@
+name: Regression
+description: Report a feature or behavior that previously worked but no longer does.
+title: "[Regression]: "
+labels:
+  - bug
+  - regression
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Regression Report
+
+        Use this template if something that worked in a previous version of Bedrock Horizons no longer works.
+
+  - type: input
+    id: affected_feature
+    attributes:
+      label: Affected Feature
+      description: What feature or system has regressed?
+      placeholder: Example: Cherry Grove fog
+    validations:
+      required: true
+
+  - type: input
+    id: last_working
+    attributes:
+      label: Last Known Working Version
+      description: Which version last worked correctly?
+      placeholder: v1.2.0
+    validations:
+      required: true
+
+  - type: input
+    id: first_broken
+    attributes:
+      label: First Broken Version
+      description: Which version first showed the issue?
+      placeholder: v1.3.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the regression.
+      placeholder: Explain what changed between versions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Describe how the feature behaved previously.
+      placeholder: Explain the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Current Behavior
+      description: Describe how the feature behaves now.
+      placeholder: Explain the current behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps required to reproduce the regression.
+      placeholder: |
+        1. Enable Bedrock Horizons
+        2. Load a world
+        3. Travel to...
+        4. Observe the issue
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      placeholder: 1.21.100
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Android
+        - iOS
+        - Xbox
+        - PlayStation
+        - Nintendo Switch
+        - Preview/Beta
+        - Education Edition
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: other_packs
+    attributes:
+      label: Are other resource packs enabled?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pack_list
+    attributes:
+      label: Other Resource Packs
+      description: List any additional enabled resource packs.
+      placeholder: |
+        - Pack Name
+        - Pack Name
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: Attach screenshots or videos that demonstrate the regression.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Content Log / Error Messages
+      description: Paste any relevant Content Log output or error messages.
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any additional information that may help investigate the regression.

@@ -1,0 +1,165 @@
+name: Performance Issue
+description: Report a performance problem related to Bedrock Horizons.
+title: "[Performance]: "
+labels:
+  - performance
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Performance Issue
+
+        Use this template to report performance issues such as low FPS, stuttering, long loading times, or excessive resource usage.
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Performance Issue Type
+      description: What type of performance issue are you experiencing?
+      options:
+        - Low FPS
+        - Stuttering
+        - Frame Time Spikes
+        - Long Loading Times
+        - High GPU Usage
+        - High CPU Usage
+        - High Memory Usage
+        - Increased Battery Usage
+        - Overheating
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the performance issue.
+      placeholder: Explain what happens and when it occurs.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps required to reproduce the issue.
+      placeholder: |
+        1. Enable Bedrock Horizons
+        2. Load a world
+        3. Travel to a snowy biome
+        4. Observe the performance issue
+    validations:
+      required: true
+
+  - type: input
+    id: bh_version
+    attributes:
+      label: Bedrock Horizons Version
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      placeholder: 1.21.100
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Android
+        - iOS
+        - Xbox
+        - PlayStation
+        - Nintendo Switch
+        - Preview/Beta
+        - Education Edition
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: device
+    attributes:
+      label: Device Specifications
+      description: Include relevant hardware information.
+      placeholder: |
+        CPU:
+        GPU:
+        RAM:
+        Device Model:
+        Operating System:
+    validations:
+      required: true
+
+  - type: input
+    id: render_distance
+    attributes:
+      label: Render Distance
+      placeholder: 16 Chunks
+
+  - type: dropdown
+    id: graphics_mode
+    attributes:
+      label: Graphics Mode
+      options:
+        - Vibrant Visuals
+        - Fancy
+        - Simple
+        - Unknown
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: other_packs
+    attributes:
+      label: Are other resource packs enabled?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pack_list
+    attributes:
+      label: Other Resource Packs
+      description: List any additional enabled resource packs.
+      placeholder: |
+        - Pack Name
+        - Pack Name
+
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Performance Measurements
+      description: Include any FPS values, GPU usage, CPU usage, memory usage, or other measurements if available.
+      placeholder: |
+        Before:
+        After:
+        Average FPS:
+        GPU Usage:
+        CPU Usage:
+        Memory Usage:
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: Attach screenshots, videos, or performance graphs if applicable.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any additional details that may help investigate the issue.

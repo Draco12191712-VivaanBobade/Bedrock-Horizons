@@ -1,0 +1,82 @@
+name: Documentation
+description: Report an issue or suggest improvements for the project's documentation.
+title: "[Documentation]: "
+labels:
+  - documentation
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Documentation
+
+        Use this template to report documentation errors, missing information, or suggest improvements.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Documentation Type
+      description: What kind of documentation does this relate to?
+      options:
+        - README
+        - Wiki
+        - CONTRIBUTING.md
+        - CODE_OF_CONDUCT.md
+        - SECURITY.md
+        - LICENSE
+        - GitHub Templates
+        - Installation Instructions
+        - Development Documentation
+        - API / JSON Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Which file, page, or section contains the issue?
+      placeholder: README.md → Installation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      options:
+        - Incorrect Information
+        - Missing Information
+        - Outdated Information
+        - Typographical Error
+        - Formatting Issue
+        - Broken Link
+        - New Documentation Request
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the documentation issue.
+      placeholder: Explain what is incorrect, missing, or unclear.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: Describe how the documentation could be improved.
+      placeholder: Describe your proposed changes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any additional context, screenshots, or references if applicable.

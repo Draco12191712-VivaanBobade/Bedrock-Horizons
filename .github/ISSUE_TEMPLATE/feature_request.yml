@@ -1,0 +1,117 @@
+name: Feature Request
+description: Suggest a new feature or capability for Bedrock Horizons.
+title: "[Feature]: "
+labels:
+  - enhancement
+  - feature request
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+
+        Use this template to propose a new feature or capability for Bedrock Horizons.
+
+  - type: input
+    id: title
+    attributes:
+      label: Feature Name
+      description: Give your feature a short, descriptive name.
+      placeholder: Dynamic Aurora Borealis
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which area of the project would this feature belong to?
+      options:
+        - Lighting
+        - Fog
+        - Color Grading
+        - Water
+        - Atmospherics
+        - Clouds
+        - Sky
+        - Sun
+        - Moon
+        - Weather
+        - Shadows
+        - PBR
+        - Point Lights
+        - Biomes
+        - Textures
+        - UI
+        - Performance
+        - Compatibility
+        - Build System
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem or limitation would this feature solve?
+      placeholder: |
+        Describe the problem or missing functionality.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature you'd like to see.
+      placeholder: |
+        Explain how the feature should work.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions?
+      placeholder: |
+        Describe any alternatives you've thought about.
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: How would players benefit from this feature?
+      placeholder: |
+        Example:
+        - Improves immersion
+        - Better visuals in snowy biomes
+        - Makes sunsets more realistic
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Include screenshots, mockups, videos, concept art, or examples from other projects if applicable.
+
+  - type: dropdown
+    id: willing_to_help
+    attributes:
+      label: Are you willing to help develop this feature?
+      options:
+        - "Yes"
+        - "No"
+        - Maybe
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any additional details that may help explain your proposal.

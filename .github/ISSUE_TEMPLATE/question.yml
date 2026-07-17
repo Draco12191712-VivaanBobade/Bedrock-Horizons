@@ -1,0 +1,102 @@
+name: Question
+description: Ask a question about Bedrock Horizons.
+title: "[Question]: "
+labels:
+  - question
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Question
+
+        Use this template if you have a question about Bedrock Horizons that is not covered by the documentation.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What is your question about?
+      options:
+        - Installation
+        - Configuration
+        - Minecraft Compatibility
+        - Platform Compatibility
+        - Resource Packs
+        - Performance
+        - Lighting
+        - Fog
+        - Color Grading
+        - Water
+        - Atmospherics
+        - Clouds
+        - Sky
+        - Shadows
+        - PBR
+        - Development
+        - Contributing
+        - Documentation
+        - Licensing
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe your question as clearly as possible.
+      placeholder: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What Have You Tried?
+      description: Describe any troubleshooting or research you've already done.
+      placeholder: |
+        - Read the README
+        - Checked the Wiki
+        - Searched existing Issues
+        - Searched Discussions
+
+  - type: input
+    id: bh_version
+    attributes:
+      label: Bedrock Horizons Version
+      placeholder: v1.0.0
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      placeholder: 1.21.100
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Android
+        - iOS
+        - Xbox
+        - PlayStation
+        - Nintendo Switch
+        - Preview/Beta
+        - Education Edition
+        - Other
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: Attach screenshots or videos if they help explain your question.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any other relevant information.

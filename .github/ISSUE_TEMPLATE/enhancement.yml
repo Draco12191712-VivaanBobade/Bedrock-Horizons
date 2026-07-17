@@ -1,0 +1,111 @@
+name: Enhancement
+description: Suggest an improvement to an existing feature in Bedrock Horizons.
+title: "[Enhancement]: "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Enhancement
+
+        Use this template to suggest improvements to existing features or systems in Bedrock Horizons.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which part of Bedrock Horizons would this enhancement affect?
+      options:
+        - Lighting
+        - Fog
+        - Color Grading
+        - Water
+        - Atmospherics
+        - Clouds
+        - Sky
+        - Sun
+        - Moon
+        - Shadows
+        - PBR
+        - Point Lights
+        - Biomes
+        - Textures
+        - UI
+        - Performance
+        - Documentation
+        - Build System
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: affected_feature
+    attributes:
+      label: Existing Feature
+      description: Which existing feature or system would be improved?
+      placeholder: Example: Snowy biome lighting
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current Behavior
+      description: Describe how the feature currently behaves.
+      placeholder: Explain the current behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Proposed Enhancement
+      description: Describe the improvement you would like to see.
+      placeholder: Explain your proposed enhancement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Benefit
+      description: How would this improve Bedrock Horizons?
+      placeholder: Explain why this enhancement would be useful.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: breaking_change
+    attributes:
+      label: Would this introduce breaking changes?
+      options:
+        - "No"
+        - "Yes"
+        - Unsure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: willing_to_help
+    attributes:
+      label: Are you willing to help implement this enhancement?
+      options:
+        - "Yes"
+        - "No"
+        - Maybe
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Include screenshots, mockups, videos, resource packs, or other references that demonstrate your idea.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any other information that may help explain the enhancement.

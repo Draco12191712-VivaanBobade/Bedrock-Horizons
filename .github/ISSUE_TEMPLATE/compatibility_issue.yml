@@ -1,0 +1,160 @@
+name: Compatibility Issue
+description: Report a compatibility problem with Minecraft, another pack, or a specific platform.
+title: "[Compatibility]: "
+labels:
+  - compatibility
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Compatibility Issue
+
+        Use this template to report compatibility problems between Bedrock Horizons and Minecraft versions, platforms, Realms, or other resource packs.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the compatibility issue.
+      placeholder: |
+        Describe the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder: Describe the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe the actual behavior.
+    validations:
+      required: true
+
+  - type: input
+    id: bh_version
+    attributes:
+      label: Bedrock Horizons Version
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: mc_version
+    attributes:
+      label: Minecraft Version
+      placeholder: 1.21.100
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Android
+        - iOS
+        - macOS Preview
+        - Xbox
+        - PlayStation
+        - Nintendo Switch
+        - Preview/Beta
+        - Education Edition
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Minecraft Build
+      options:
+        - Stable Release
+        - Preview
+        - Beta
+        - Preview Preview
+        - Education Edition
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: realms
+    attributes:
+      label: Does the issue occur in a Realm?
+      options:
+        - "Yes"
+        - "No"
+        - Not Tested
+    validations:
+      required: true
+
+  - type: dropdown
+    id: other_packs
+    attributes:
+      label: Are other resource packs enabled?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pack_list
+    attributes:
+      label: Other Resource Packs
+      description: List any other enabled resource packs.
+      placeholder: |
+        - Pack Name
+        - Pack Name
+
+  - type: textarea
+    id: conflicting_pack
+    attributes:
+      label: Suspected Conflicting Pack
+      description: If you believe another resource pack is causing the issue, provide its name and version.
+      placeholder: |
+        Pack Name
+        Version
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps required to reproduce the issue.
+      placeholder: |
+        1. Enable Bedrock Horizons
+        2. Enable another pack
+        3. Join a world
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: Drag and drop screenshots or videos here if applicable.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Content Log / Error Messages
+      description: Paste any relevant Content Log output or error messages.
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any additional details that may help diagnose the compatibility issue.

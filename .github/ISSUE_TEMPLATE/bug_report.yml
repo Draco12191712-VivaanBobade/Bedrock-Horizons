@@ -1,0 +1,147 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in Bedrock Horizons.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+
+        Please complete the information below so the issue can be investigated.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug in detail.
+      placeholder: |
+        Describe what happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps required to reproduce the issue.
+      placeholder: |
+        1. Open Minecraft
+        2. Enable Bedrock Horizons
+        3. Join a world
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder: Describe the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe the actual behavior.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Bedrock Horizons Version
+      description: Which version are you using?
+      options:
+        - Latest Release
+        - Development Build
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version_other
+    attributes:
+      label: If "Other", specify the version
+      placeholder: v1.0.0
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      description: Enter the Minecraft: Bedrock Edition version.
+      placeholder: 1.21.100
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Android
+        - iOS
+        - macOS Preview
+        - Xbox
+        - PlayStation
+        - Nintendo Switch
+        - Preview/Beta
+        - Education Edition
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: realms
+    attributes:
+      label: Does this occur in a Realm?
+      options:
+        - "Yes"
+        - "No"
+        - Not Tested
+    validations:
+      required: true
+
+  - type: dropdown
+    id: other_packs
+    attributes:
+      label: Are other resource packs enabled?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pack_list
+    attributes:
+      label: Other Resource Packs
+      description: List any additional resource packs that were enabled.
+      placeholder: |
+        - Pack Name
+        - Pack Name
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Content Log / Error Messages
+      description: Paste any relevant errors from the Content Log.
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: Drag and drop screenshots or videos into this field if applicable.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any other information that may help reproduce or diagnose the issue.

@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/Draco12191712-VivaanBobade/Bedrock-Horizons/discussions
+    about: Ask questions, share ideas, or start a discussion about Bedrock Horizons.
+
+  - name: Documentation
+    url: https://github.com/Draco12191712-VivaanBobade/Bedrock-Horizons/wiki
+    about: Read the project's documentation and installation instructions before opening an issue.

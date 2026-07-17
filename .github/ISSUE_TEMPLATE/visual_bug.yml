@@ -1,0 +1,200 @@
+name: Visual Bug
+description: Report a visual issue in Bedrock Horizons.
+title: "[Visual]: "
+labels:
+  - bug
+  - visual
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Visual Bug Report
+
+        Use this template to report visual issues such as lighting, fog, water, color grading, clouds, sky rendering, or other graphical problems.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Visual Category
+      description: Which visual system is affected?
+      options:
+        - Lighting
+        - Fog
+        - Color Grading
+        - Water
+        - Atmospherics
+        - Clouds
+        - Sky
+        - Sun
+        - Moon
+        - Shadows
+        - PBR
+        - Point Lights
+        - Textures
+        - Biomes
+        - UI
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the visual issue.
+      placeholder: Explain what you observed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Appearance
+      description: Describe how the visuals should look.
+      placeholder: Explain the expected appearance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Appearance
+      description: Describe how the visuals currently look.
+      placeholder: Explain the current appearance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps required to reproduce the issue.
+      placeholder: |
+        1. Enable Bedrock Horizons
+        2. Load a world
+        3. Travel to...
+        4. Observe the visual issue
+    validations:
+      required: true
+
+  - type: input
+    id: bh_version
+    attributes:
+      label: Bedrock Horizons Version
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      placeholder: 1.21.100
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Android
+        - iOS
+        - Xbox
+        - PlayStation
+        - Nintendo Switch
+        - Preview/Beta
+        - Education Edition
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: dimension
+    attributes:
+      label: Dimension
+      options:
+        - Overworld
+        - Nether
+        - The End
+        - Multiple
+    validations:
+      required: true
+
+  - type: input
+    id: biome
+    attributes:
+      label: Biome
+      description: If applicable, specify the biome where the issue occurs.
+      placeholder: Cherry Grove
+
+  - type: dropdown
+    id: weather
+    attributes:
+      label: Weather
+      options:
+        - Clear
+        - Rain
+        - Thunderstorm
+        - Snow
+        - Not Applicable
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: time_of_day
+    attributes:
+      label: Time of Day
+      options:
+        - Sunrise
+        - Day
+        - Sunset
+        - Night
+        - Always
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: other_packs
+    attributes:
+      label: Are other resource packs enabled?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pack_list
+    attributes:
+      label: Other Resource Packs
+      description: List any additional enabled resource packs.
+      placeholder: |
+        - Pack Name
+        - Pack Name
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos
+      description: Attach screenshots or videos that clearly show the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Content Log / Error Messages
+      description: Paste any relevant Content Log output or error messages.
+      render: text
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include any additional details that may help reproduce or diagnose the issue.
