@@ -28,7 +28,30 @@
 			"version": "0.0.1"
 		}
 	],
+	"subpacks": [
+		{
+			"folder_name": "lite",
+			"name": "Bedrock Horizons Lite",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "balanced",
+			"name": "Bedrock Horizons Balanced",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "ultra",
+			"name": "Bedrock Horizons Ultra",
+			"memory_tier": 2
+		},
+		{
+			"folder_name": "cinematic",
+			"name": "Bedrock Horizons Cinematic",
+			"memory_tier": 3
+		}
+	],
 	"capabilities": [
-		"pbr"
+		"pbr",
+		"raytraced"
 	]
 }
