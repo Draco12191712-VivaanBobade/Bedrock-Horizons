@@ -1,142 +1,76 @@
 # Bedrock Horizons
 
 <div align="center">
-<img width="1024" height="256" alt="title" src="https://github.com/user-attachments/assets/b0198334-7d8a-4357-a586-50829b753fad" />
+  <img width="1024" height="256" alt="Bedrock Horizons Title Banner" src="https://github.com/user-attachments/assets/b0198334-7d8a-4357-a586-50829b753fad" />
 
+  ### A cinematic visual overhaul for Minecraft: Bedrock Edition.
 
-### A complete visual overhaul for Minecraft: Bedrock Edition.
-
----
-
-![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock%20Edition-5E9C31?style=for-the-badge&logo=minecraft&logoColor=white)
-![License](https://img.shields.io/badge/Code-MPL--2.0-orange?style=for-the-badge)
-
-![Assets License](https://img.shields.io/badge/Textures-CC%20BY--NC--SA%204.0-blue?style=for-the-badge)
+  [![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock%20v1.26.0+-5E9C31?style=for-the-badge&logo=minecraft&logoColor=white)](https://minecraft.net)
+  [![Pipeline](https://img.shields.io/badge/Pipeline-Deferred%20Technical%20Preview-8B5CF6?style=for-the-badge)](https://minecraft.net)
+  [![Code License](https://img.shields.io/badge/Code-MPL--2.0-orange?style=for-the-badge)](LICENSE)
+  [![Textures License](https://img.shields.io/badge/Textures-CC%20BY--NC--SA%204.0-blue?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
 
-# Features
+## Key Features
 
-Bedrock Horizons enhances Minecraft's visuals while preserving the vanilla gameplay experience.
+Bedrock Horizons upgrades Minecraft's lighting and atmospheric pipelines using Bedrock's Deferred Technical Preview while keeping vanilla gameplay seamless.
 
-## Lighting
-
-- Completely redesigned sunlight
-- Improved moonlight
-- Enhanced Nether lighting
-- Improved End lighting
-- Biome-specific lighting presets
-- Smooth day/night transitions
-
-## Fog
-
-- Custom fog for nearly every biome
-- Atmospheric caves
-- Dynamic Nether fog
-- End ambience
-- Distance-based visibility improvements
-
-## Color Grading
-
-- Forests
-- Cherry Groves
-- Pale Garden
-- Deep Dark
-- Oceans
-- Deserts
-- Snow biomes
-- Swamps
-- Nether biomes
-- End dimension
-
-## Water
-
-- Crystal-clear oceans
-- Swamp water presets
-- Desert water
-- Improved underwater appearance
-- Custom caustics
-
-## Atmosphere
-
-- Better clouds
-- Improved sky colors
-- Better sun
-- Better moon
-- Caustics
-- Enhanced shadows
+* **Ray-Traced God Rays & Volumetric Fog:** Sunlight and moonlight scatter dynamically through trees, caves, and ocean depths via Mie scattering.
+* **Screen-Space Reflections (SSR):** Water surfaces feature dynamic reflections for land, mobs, and sky lighting.
+* **Refractive Water Physics:** Multi-octave cross-swells, high-contrast bottom caustics, and biome-tuned turbidity (`sand_water`, `swamp_water`, `default_water`).
+* **Wavy Vegetation Animations:** Wind displacement applied across leaf blocks, grass, flowers, and kelp.
+* **Dynamic Tone Mapping:** Color grading tuned across dimensions and biomes using ACES tone mapping curves.
+* **Emissive Block Glow:** Custom lighting definitions for sea lanterns, glowstone, and glowing vegetation.
+* **Subpack Preset Slider:** Toggle in-game between **Ultra**, **Balanced**, and **Performance** graphics presets.
 
 ---
 
-# Screenshots
+## Screenshots
 
-> Screenshots coming soon.
-
----
-
-# Installation
-
-1. Download the latest release.
-2. Import the Resource Pack into Minecraft.
-3. Activate the pack.
-4. Place it near the top of your Resource Pack stack.
-5. Enable any optional subpacks if available.
+> *Showcases and comparison sliders coming soon.*
 
 ---
 
-# Compatibility
+## Installation
 
-| Feature | Supported |
-|---------|-----------|
-| Minecraft Bedrock | ✅ |
-| RenderDragon | ✅ |
-| Realms | ✅ |
-| Multiplayer | ✅ |
-| Windows | ✅ |
-| Android | ✅ |
-| iOS | ✅ |
+1. Download the latest `.mcpack` release from the **Releases** tab.
+2. Double-click or open the file to import it into Minecraft Bedrock Edition.
+3. Enable **Deferred Technical Preview** in your world settings.
+4. Activate **Bedrock Horizons** under `Global Resources` or `World Resource Packs`.
+5. Move it to the top of your active pack hierarchy.
 
 ---
 
-# Contributing
+## Hardware & System Support
 
-Contributions are welcome!
-
-If you'd like to improve Bedrock Horizons:
-
-- Fork the repository.
-- Create a feature branch.
-- Commit your changes.
-- Open a Pull Request.
-
-Please read the project's contribution guidelines before submitting changes.
+| Platform / Engine Feature | Status | Notes |
+| :--- | :---: | :--- |
+| **Minecraft Bedrock Edition (v1.26.0+)** | ✅ | Required for latest schema support |
+| **Deferred Graphics Technical Preview** | ✅ | Must be enabled in video settings |
+| **Windows 10/11** | ✅ | DirectX 12 deferred hardware pass |
+| **Android & iOS** | ✅ | Supported on devices capable of Deferred Preview |
+| **Realms & Dedicated Servers** | ✅ | Client-side presentation supported |
 
 ---
 
-# Licensing
+## Contributing & Licensing
 
-This repository uses a dual-license model.
+Contributions, issue reports, and feedback are welcome! Please feel free to open a Pull Request or submit an issue.
 
-| Content | License |
-|---------|---------|
-| Source Code | Mozilla Public License 2.0 |
-| Textures & Artwork | CC BY-NC-SA 4.0 |
+| Component | License Type |
+| :--- | :--- |
+| **Shader Code & JSON Configs** | [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/) |
+| **Textures & Artwork Assets** | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 
-See **LICENSE.md** for full details.
-
----
-
-# Credits
-
-Created and maintained by **Draco12191712 (Vivaan Bobade)**.
-
-Contact me [here](https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWQDBLWbvRTncTlDvfxdcbpvbtbRcFDSJjfMDmkGXgvzlrvqrWvtjSTwhtLfRqtZthVqq) 
 ---
 
 <div align="center">
 
-### If you enjoy Bedrock Horizons, consider giving the repository a star!
+**Created and maintained by Draco12191712 (Vivaan Bobade)**
+
+*If you enjoy Bedrock Horizons, consider giving this repository a star!* ⭐
 
 </div>
