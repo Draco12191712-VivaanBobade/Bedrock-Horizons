@@ -1,0 +1,9 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:tonemapping_settings": {
+    "description": { "identifier": "bh:tonemapping" },
+    "operator": "aces",
+    "exposure_compensation": 0.2,
+    "white_point": 11.2
+  }
+}
