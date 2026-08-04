@@ -6,21 +6,21 @@
     },
     "distance": {
       "air": {
-        "fog_start": 0.78,
-        "fog_end": 1,
-        "fog_color": "#d9edff",
-        "render_distance_type": "render"
+        "fog_start": 0.0,
+        "fog_end": 260.0,
+        "fog_color": "#C8E3FF",
+        "render_distance_type": "fixed"
       },
       "water": {
-        "fog_start": 0,
-        "fog_end": 70,
-        "fog_color": "#1b8fd1",
+        "fog_start": 0.0,
+        "fog_end": 100.0,
+        "fog_color": "#104E7A",
         "render_distance_type": "fixed",
         "transition_fog": {
           "init_fog": {
-            "fog_start": 0,
+            "fog_start": 0.0,
             "fog_end": 0.01,
-            "fog_color": "#1b8fd1",
+            "fog_color": "#104E7A",
             "render_distance_type": "fixed"
           },
           "min_percent": 0.25,
@@ -30,50 +30,52 @@
         }
       },
       "weather": {
-        "fog_start": 0.25,
-        "fog_end": 0.85,
-        "fog_color": "#b8c9db",
-        "render_distance_type": "render"
+        "fog_start": 0.0,
+        "fog_end": 90.0,
+        "fog_color": "#A2B5C8",
+        "render_distance_type": "fixed"
       }
     },
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.045,
+          "max_density": 0.095,
           "uniform": false,
-          "max_density_height": 95,
-          "zero_density_height": 175
+          "max_density_height": 60,
+          "zero_density_height": 180
         },
         "water": {
-          "max_density": 0.012,
+          "max_density": 0.75,
           "uniform": true
         },
         "weather": {
-          "max_density": 0.22,
-          "uniform": true
+          "max_density": 0.28,
+          "uniform": false,
+          "max_density_height": 55,
+          "zero_density_height": 160
         }
       },
       "media_coefficients": {
         "air": {
-          "scattering": [0.075, 0.095, 0.125],
-          "absorption": [0.006, 0.012, 0.02]
+          "scattering": [0.095, 0.145, 0.22],
+          "absorption": [0.008, 0.005, 0.002]
         },
         "water": {
-          "scattering": [0.006, 0.012, 0.02],
-          "absorption": [0.45, 0.18, 0.06]
+          "scattering": [0.01, 0.08, 0.18],
+          "absorption": [0.15, 0.05, 0.015]
         },
         "cloud": {
-          "scattering": [0.02, 0.045, 0.08],
-          "absorption": [0.8, 0.8, 0.8]
+          "scattering": [0.06, 0.07, 0.08],
+          "absorption": [0.2, 0.2, 0.2]
         }
-      }
-    },
-    "henyey_greenstein_g": {
-      "air": {
-        "henyey_greenstein_g": 0.82
       },
-      "water": {
-        "henyey_greenstein_g": 0.45
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.86
+        },
+        "water": {
+          "henyey_greenstein_g": 0.65
+        }
       }
     }
   }

@@ -6,90 +6,30 @@
     },
     "color_grading": {
       "highlights": {
-        "highlightsMin": 20,
+        "highlightsMin": 1,
         "enabled": true,
-        "contrast": [
-          1.12,
-          1.1,
-          1.12
-        ],
-        "saturation": [
-          1.18,
-          1.08,
-          1.12
-        ],
-        "gain": [
-          1.18,
-          1.08,
-          1.14
-        ],
-        "offset": [
-          0.015,
-          0.0,
-          0.02
-        ],
-        "gamma": [
-          2.42,
-          2.38,
-          2.42
-        ]
+        "contrast": [1.15, 1.12, 1.15],
+        "saturation": [1.25, 1.1, 1.2],
+        "gain": [1.22, 1.1, 1.18],
+        "offset": [0.02, 0.005, 0.025],
+        "gamma": [2.35, 2.3, 2.35]
       },
       "midtones": {
-        "midtonesMax": 60,
-        "contrast": [
-          1.12,
-          1.1,
-          1.12
-        ],
-        "saturation": [
-          1.12,
-          1.06,
-          1.1
-        ],
-        "gain": [
-          1.12,
-          1.05,
-          1.1
-        ],
-        "offset": [
-          0.008,
-          0.0,
-          0.015
-        ],
-        "gamma": [
-          2.36,
-          2.34,
-          2.38
-        ]
+        "midtonesMax": 0.55,
+        "contrast": [1.1, 1.08, 1.1],
+        "saturation": [1.15, 1.08, 1.12],
+        "gain": [1.1, 1.05, 1.12],
+        "offset": [0.01, 0.0, 0.015],
+        "gamma": [2.32, 2.3, 2.34]
       },
       "shadows": {
-        "shadowsMax": 0.4,
+        "shadowsMax": 0.25,
         "enabled": true,
-        "contrast": [
-          1.08,
-          1.06,
-          1.1
-        ],
-        "saturation": [
-          1.05,
-          1.02,
-          1.08
-        ],
-        "gain": [
-          0.98,
-          0.94,
-          1.08
-        ],
-        "offset": [
-          0.0,
-          0.005,
-          0.015
-        ],
-        "gamma": [
-          2.45,
-          2.43,
-          2.48
-        ]
+        "contrast": [1.08, 1.06, 1.1],
+        "saturation": [1.08, 1.05, 1.02],
+        "gain": [0.95, 0.92, 1.08],
+        "offset": [0.0, 0.002, 0.018],
+        "gamma": [2.42, 2.4, 2.45]
       }
     },
     "tone_mapping": {
