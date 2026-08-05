@@ -2,9 +2,9 @@
   "format_version": 3,
   "header": {
     "name": "§#E745F6Bedrock Horizons§r §8[§aDeferred HDR§8]",
-    "description": "§7A cinematic visual overhaul built on the Deferred Rendering pipeline.\n\n§8By Draco12191712 (Vivaan Bobade) v0.0.1",
+    "description": "§7A cinematic visual overhaul built on the Deferred Rendering pipeline.\n\n§8By Draco12191712 (Vivaan Bobade) v0.1.0-alpha.1",
     "uuid": "55f8b0ea-4dfc-4a5f-a778-da80cace65b4",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "min_engine_version": "1.26.0",
     "pack_scope": "global"
   },
@@ -13,7 +13,7 @@
       "description": "Bedrock Horizons Deferred Rendering Resources",
       "type": "resources",
       "uuid": "94317dbf-5f36-419c-8993-5a25514d49b6",
-      "version": "0.0.1"
+      "version": "0.1.0"
     }
   ],
   "capabilities": ["pbr", "raytraced"],

@@ -3,7 +3,7 @@
 <div align="center">
   <img width="1024" height="256" alt="Bedrock Horizons Title Banner" src="https://github.com/user-attachments/assets/b0198334-7d8a-4357-a586-50829b753fad" />
 
-  ### A cinematic visual overhaul for Minecraft: Bedrock Edition.
+### A cinematic visual overhaul for Minecraft: Bedrock Edition
 
   [![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock%20v1.26.0+-5E9C31?style=for-the-badge&logo=minecraft&logoColor=white)](https://minecraft.net)
   [![Pipeline](https://img.shields.io/badge/Pipeline-Deferred%20Technical%20Preview-8B5CF6?style=for-the-badge)](https://minecraft.net)
@@ -71,6 +71,6 @@ Contributions, issue reports, and feedback are welcome! Please feel free to open
 
 **Created and maintained by Draco12191712 (Vivaan Bobade)**
 
-*If you enjoy Bedrock Horizons, consider giving this repository a star!* ⭐
+*If you enjoy Bedrock Horizons, consider giving this repository a star!*
 
 </div>
