@@ -6,45 +6,70 @@
     },
     "distance": {
       "air": {
-        "fog_start": 0.0,
-        "fog_end": 180.0,
-        "fog_color": "#3D3531",
-        "render_distance_type": "fixed"
-      },
-      "weather": {
-        "fog_start": 0.0,
-        "fog_end": 120.0,
-        "fog_color": "#2A2422",
+        "fog_start": 82.0,
+        "fog_end": 512.0,
+        "fog_color": "#6E6C6C",
         "render_distance_type": "fixed"
       }
     },
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.14,
-          "uniform": true
+          "max_density": 0.182,
+          "uniform": false,
+          "max_density_height": 76,
+          "zero_density_height": 148
         },
         "water": {
-          "max_density": 0.85,
+          "max_density": 0.0,
+          "uniform": true
+        },
+        "weather": {
+          "max_density": 0.8,
           "uniform": true
         }
       },
       "media_coefficients": {
         "air": {
-          "scattering": [0.135, 0.092, 0.055],
-          "absorption": [0.018, 0.009, 0.005]
+          "scattering": [
+            0.936,
+            0.828,
+            0.612
+          ],
+          "absorption": [
+            0.05,
+            0.1,
+            0.21999999999999997
+          ]
         },
         "water": {
-          "scattering": [0.06, 0.12, 0.16],
-          "absorption": [0.08, 0.04, 0.02]
+          "scattering": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "absorption": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "cloud": {
+          "scattering": [
+            0.515,
+            0.622,
+            0.7040000000000001
+          ],
+          "absorption": [
+            0.104,
+            0.161,
+            0.306
+          ]
         }
       },
       "henyey_greenstein_g": {
         "air": {
-          "henyey_greenstein_g": 0.76
-        },
-        "water": {
-          "henyey_greenstein_g": 0.65
+          "henyey_greenstein_g": 0.88
         }
       }
     }

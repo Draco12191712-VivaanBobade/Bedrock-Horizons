@@ -5,30 +5,28 @@
       "identifier": "bh:default_water"
     },
     "particle_concentrations": {
-      "chlorophyll": 0.018,
-      "suspended_sediment": 3.5,
-      "cdom": 0.035
+      "chlorophyll": 0.00039999999552965164,
+      "suspended_sediment": 0.0,
+      "cdom": 0.0
     },
     "caustics": {
       "enabled": true,
-      "frame_length": 0.033,
-      "texture": "textures/caustic/caustics.png",
-      "scale": 0.22,
-      "power": 5
+      "frame_length": 0.0499999776482582,
+      "texture": "textures/causticsHigh/caustics.png",
+      "scale": 0.25,
+      "power": 3.5
     },
     "waves": {
       "enabled": true,
-      "depth": 0.22,
-      "direction_increment": 37.5,
-      "frequency": 0.58,
-      "frequency_scaling": 1.35,
-      "mix": 0.35,
-      "octaves": 18,
-      "pull": 0.5,
-      "sampleWidth": 1,
-      "shape": 3.5,
-      "speed": 1.05,
-      "speed_scaling": 1.08
+      "frequency": 0.85,
+      "octaves": 8,
+      "depth": 0.12,
+      "speed": 2.5,
+      "shape": 2.8,
+      "pull": 0.08539999952316284,
+      "mix": 0.150000000298023224,
+      "frequency_scaling": 1.068000000476837158,
+      "speed_scaling": 1.0799999713897705
     }
   }
 }

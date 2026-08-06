@@ -2,6 +2,8 @@
   "format_version": "1.26.0",
   "minecraft:shadow_settings": {
     "shadow_style": "soft_shadows",
-    "texel_size": 4096
+    "texel_size": 1024,
+    "shadow_intensity": 0.95,
+    "shadow_softness": 0.15
   }
 }
