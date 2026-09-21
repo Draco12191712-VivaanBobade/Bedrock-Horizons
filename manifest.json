@@ -1,88 +1,68 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "§#E745F6Bedrock Horizons§r §8[§aDeferred HDR§8]",
-		"description": "§7A cinematic visual overhaul built on the Deferred Rendering pipeline.\n§7Catppuccin-flavoured PBR textures, volumetric god rays and per-biome water.\n\n§8By Draco12191712 (Vivaan Bobade) v1.0.0",
-		"uuid": "55f8b0ea-4dfc-4a5f-a778-da80cace65b4",
-		"version": [
-			1,
-			0,
-			0
-		],
-		"min_engine_version": [
-			1,
-			21,
-			120
-		],
-		"pack_scope": "global"
-	},
-	"modules": [
-		{
-			"description": "Bedrock Horizons deferred rendering resources",
-			"type": "resources",
-			"uuid": "94317dbf-5f36-419c-8993-5a25514d49b6",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-	"subpacks": [
-		{
-			"folder_name": "performance",
-			"name": "Performance",
-			"description": "Lowest cost. Flat water, no caustics, minimal volumetrics.",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "low",
-			"name": "Low",
-			"description": "Waves on, caustics off, light volumetrics.",
-			"memory_tier": 0
-		},
-		{
-			"folder_name": "medium",
-			"name": "Medium",
-			"description": "Balanced. Caustics on, moderate god rays.",
-			"memory_tier": 1
-		},
-		{
-			"folder_name": "high",
-			"name": "High",
-			"description": "Full feature set at moderate cost. Recommended.",
-			"memory_tier": 2
-		},
-		{
-			"folder_name": "ultra",
-			"name": "Ultra",
-			"description": "High-resolution shadows and full volumetrics.",
-			"memory_tier": 3
-		},
-		{
-			"folder_name": "cinematic",
-			"name": "Cinematic",
-			"description": "Maximum everything. For screenshots and video capture.",
-			"memory_tier": 4
-		}
-	],
-	"capabilities": [
-		"pbr"
-	],
-	"metadata": {
-		"authors": [
-			"Draco12191712 (Vivaan Bobade)"
-		],
-		"license": "MPL 2.0 (code) & CC BY-NC-SA 4.0 (textures)",
-		"url": "https://github.com/Draco12191712-VivaanBobade/Bedrock-Horizons",
-		"product_type": "addon",
-		"generated_with": {
-			"bridge": [
-				"2.7.54"
-			],
-			"dash": [
-				"0.11.7"
-			]
-		}
-	}
+  "format_version": 2,
+  "header": {
+    "name": "§#E745F6Bedrock Horizons§r §8[§aDeferred HDR§8]",
+    "description": "§7A cinematic visual overhaul built on the Deferred Rendering pipeline.\n§7Catppuccin-flavoured PBR textures, volumetric god rays and per-biome water.\n\n§8By Draco12191712 (Vivaan Bobade) v1.0.0-beta.1 Build #0921",
+    "uuid": "55f8b0ea-4dfc-4a5f-a778-da80cace65b4",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 0],
+    "pack_scope": "any"
+  },
+  "modules": [
+    {
+      "description": "Bedrock Horizons deferred rendering resources",
+      "type": "resources",
+      "uuid": "94317dbf-5f36-419c-8993-5a25514d49b6",
+      "version": [1, 0, 0]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "performance",
+      "name": "Performance",
+      "description": "Lowest cost. Flat water, no caustics, minimal volumetrics.",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "low",
+      "name": "Low",
+      "description": "Waves on, caustics off, light volumetrics.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "medium",
+      "name": "Medium",
+      "description": "Balanced. Caustics on, moderate god rays.",
+      "memory_tier": 2
+    },
+    {
+      "folder_name": "high",
+      "name": "High",
+      "description": "Full feature set at moderate cost. Recommended.",
+      "memory_tier": 3
+    },
+    {
+      "folder_name": "ultra",
+      "name": "Ultra",
+      "description": "High-resolution shadows and full volumetrics.",
+      "memory_tier": 4
+    },
+    {
+      "folder_name": "cinematic",
+      "name": "Cinematic",
+      "description": "Maximum everything!",
+      "memory_tier": 5
+    }
+  ],
+  "capabilities": ["pbr", "raytracing"],
+  "metadata": {
+    "authors": ["Draco12191712 (Vivaan Bobade)"],
+    "license": "MPL 2.0 (code) & CC BY-NC-SA 4.0 (textures)",
+    "url": "https://github.com/Draco12191712-VivaanBobade/Bedrock-Horizons",
+    "product_type": "addon",
+    "generated_with": {
+      "bridge": ["2.7.54"],
+      "dash": ["0.11.7"]
+    }
+  }
 }
