@@ -1,0 +1,31 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "bamboo_jungle"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:bamboo_fog"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#78B4E6"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#3C9678"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:bamboo_atmosphere"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:bamboo_lighting"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:bamboo_grading"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "bh:tropical_water"
+      }
+    }
+  }
+}

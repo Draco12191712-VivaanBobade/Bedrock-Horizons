@@ -1,0 +1,31 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "plains"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:plains_fog"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#7FB0FF"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#4C8BD6"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:plains_atmosphere"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:plains_lighting"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:plains_grading"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "bh:default_water"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "bh:jungle_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.82,
+        "fog_end": 1,
+        "fog_color": "#8CC69A",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0,
+        "fog_end": 76.8,
+        "fog_color": "#2E7A66",
+        "render_distance_type": "fixed",
+        "transition_fog": {
+          "init_fog": {
+            "fog_start": 0,
+            "fog_end": 1.536,
+            "fog_color": "#2E7A66",
+            "render_distance_type": "fixed"
+          },
+          "min_percent": 0.25,
+          "mid_seconds": 5,
+          "mid_percent": 0.6,
+          "max_seconds": 12
+        }
+      },
+      "weather": {
+        "fog_start": 0.42,
+        "fog_end": 0.94,
+        "fog_color": "#8CC69A",
+        "render_distance_type": "render"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.0735,
+          "uniform": false,
+          "max_density_height": 60,
+          "zero_density_height": 148
+        },
+        "water": {
+          "max_density": 0.0387,
+          "uniform": true
+        },
+        "weather": {
+          "max_density": 0.24,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": [
+            0.308,
+            0.46816,
+            0.40656
+          ],
+          "absorption": [
+            0.02873,
+            0.05746,
+            0.12639
+          ]
+        },
+        "water": {
+          "scattering": [
+            0.08131,
+            0.29814,
+            0.28459
+          ],
+          "absorption": [
+            0.616,
+            0.19712,
+            0.13143
+          ]
+        },
+        "cloud": {
+          "scattering": [
+            0.2884,
+            0.34832,
+            0.39424
+          ],
+          "absorption": [
+            0.05824,
+            0.09016,
+            0.17136
+          ]
+        }
+      },
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.908
+        },
+        "water": {
+          "henyey_greenstein_g": 0.515
+        }
+      }
+    }
+  }
+}

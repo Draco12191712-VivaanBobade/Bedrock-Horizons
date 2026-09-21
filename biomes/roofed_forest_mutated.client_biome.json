@@ -1,0 +1,31 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "roofed_forest_mutated"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:dark_forest_fog"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#5C84B4"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#2E5E52"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:dark_forest_atmosphere"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:dark_forest_lighting"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:dark_forest_grading"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "bh:default_water"
+      }
+    }
+  }
+}

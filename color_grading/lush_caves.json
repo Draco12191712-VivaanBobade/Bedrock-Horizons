@@ -1,0 +1,99 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "bh:lush_caves_grading"
+    },
+    "color_grading": {
+      "shadows": {
+        "contrast": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "saturation": [
+          0.94,
+          1.02,
+          0.92
+        ],
+        "gain": [
+          0.96,
+          1,
+          0.96
+        ],
+        "gamma": [
+          2.12,
+          2.12,
+          2.14
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "enabled": true,
+        "shadowsMax": 0.42
+      },
+      "midtones": {
+        "contrast": [
+          1.14,
+          1.14,
+          1.14
+        ],
+        "saturation": [
+          1.06,
+          1.16,
+          1.02
+        ],
+        "gain": [
+          0.98,
+          1.03,
+          0.98
+        ],
+        "gamma": [
+          2.22,
+          2.2,
+          2.26
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "midtonesMax": 60
+      },
+      "highlights": {
+        "contrast": [
+          1.04,
+          1.04,
+          1.04
+        ],
+        "saturation": [
+          0.96,
+          1.02,
+          0.92
+        ],
+        "gain": [
+          0.98,
+          1.01,
+          0.97
+        ],
+        "gamma": [
+          2.32,
+          2.32,
+          2.34
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "enabled": true,
+        "highlightsMin": 18
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
+    }
+  }
+}

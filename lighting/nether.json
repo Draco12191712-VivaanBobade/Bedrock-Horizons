@@ -1,0 +1,53 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "bh:nether_lighting"
+    },
+    "directional_lights": {
+      "orbital": {
+        "sun": {
+          "illuminance": {
+            "0.000000": 190
+          },
+          "color": [
+            255,
+            112,
+            62
+          ]
+        },
+        "moon": {
+          "illuminance": 0.2,
+          "color": [
+            150,
+            60,
+            40
+          ]
+        },
+        "orbital_offset_degrees": 0
+      },
+      "flash": {
+        "illuminance": 6,
+        "color": [
+          255,
+          150,
+          90
+        ]
+      }
+    },
+    "emissive": {
+      "desaturation": 0
+    },
+    "ambient": {
+      "illuminance": 0.34,
+      "color": [
+        110,
+        34,
+        24
+      ]
+    },
+    "sky": {
+      "intensity": 0.9
+    }
+  }
+}

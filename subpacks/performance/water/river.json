@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "bh:river_water"
+    },
+    "particle_concentrations": {
+      "chlorophyll": 0.0006,
+      "suspended_sediment": 0.0003,
+      "cdom": 0.00018
+    },
+    "caustics": {
+      "enabled": false,
+      "frame_length": 0.032,
+      "texture": "textures/caustics/low/river",
+      "scale": 0.18,
+      "power": 2.9
+    },
+    "waves": {
+      "enabled": false,
+      "frequency": 1.05,
+      "octaves": 2,
+      "depth": 0.085,
+      "speed": 3.1,
+      "shape": 2.3,
+      "pull": 0.064,
+      "mix": 0.13,
+      "frequency_scaling": 1.066,
+      "speed_scaling": 1.13
+    }
+  }
+}

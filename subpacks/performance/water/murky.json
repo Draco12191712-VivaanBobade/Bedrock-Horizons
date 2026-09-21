@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "bh:murky_water"
+    },
+    "particle_concentrations": {
+      "chlorophyll": 0.0028,
+      "suspended_sediment": 0.0019,
+      "cdom": 0.0024
+    },
+    "caustics": {
+      "enabled": false,
+      "frame_length": 0.062,
+      "texture": "textures/caustics/low/murky",
+      "scale": 0.32,
+      "power": 2.1
+    },
+    "waves": {
+      "enabled": false,
+      "frequency": 0.66,
+      "octaves": 2,
+      "depth": 0.07,
+      "speed": 1.55,
+      "shape": 2.2,
+      "pull": 0.048,
+      "mix": 0.1,
+      "frequency_scaling": 1.056,
+      "speed_scaling": 1.06
+    }
+  }
+}

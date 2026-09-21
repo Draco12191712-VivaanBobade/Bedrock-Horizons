@@ -1,0 +1,99 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "bh:soulsand_valley_grading"
+    },
+    "color_grading": {
+      "shadows": {
+        "contrast": [
+          1.1,
+          1.08,
+          1.06
+        ],
+        "saturation": [
+          0.88,
+          0.96,
+          1.08
+        ],
+        "gain": [
+          0.94,
+          0.99,
+          1.06
+        ],
+        "gamma": [
+          2.18,
+          2.18,
+          2.14
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "enabled": true,
+        "shadowsMax": 0.42
+      },
+      "midtones": {
+        "contrast": [
+          1.14,
+          1.12,
+          1.1
+        ],
+        "saturation": [
+          0.96,
+          1.06,
+          1.2
+        ],
+        "gain": [
+          0.95,
+          1,
+          1.08
+        ],
+        "gamma": [
+          2.24,
+          2.24,
+          2.18
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "midtonesMax": 60
+      },
+      "highlights": {
+        "contrast": [
+          1.04,
+          1.03,
+          1.02
+        ],
+        "saturation": [
+          0.9,
+          0.96,
+          1.06
+        ],
+        "gain": [
+          0.96,
+          1,
+          1.07
+        ],
+        "gamma": [
+          2.32,
+          2.32,
+          2.26
+        ],
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "enabled": true,
+        "highlightsMin": 18
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
+    }
+  }
+}

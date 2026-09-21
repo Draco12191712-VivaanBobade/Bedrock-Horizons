@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "bh:tropical_water"
+    },
+    "particle_concentrations": {
+      "chlorophyll": 0.00022,
+      "suspended_sediment": 0.00004,
+      "cdom": 0.00003
+    },
+    "caustics": {
+      "enabled": true,
+      "frame_length": 0.038,
+      "texture": "textures/caustics/high/tropical",
+      "scale": 0.2,
+      "power": 4.4
+    },
+    "waves": {
+      "enabled": true,
+      "frequency": 0.86,
+      "octaves": 7,
+      "depth": 0.115,
+      "speed": 2.55,
+      "shape": 2.45,
+      "pull": 0.078,
+      "mix": 0.15,
+      "frequency_scaling": 1.072,
+      "speed_scaling": 1.1
+    }
+  }
+}

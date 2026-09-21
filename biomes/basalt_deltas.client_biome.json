@@ -1,0 +1,31 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "basalt_deltas"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:basalt_deltas_fog"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#2A2628"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#4A4448"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:basalt_deltas_atmosphere"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:basalt_deltas_lighting"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:basalt_deltas_grading"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "bh:murky_water"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "bh:water_water"
+    },
+    "particle_concentrations": {
+      "chlorophyll": 0.00045,
+      "suspended_sediment": 0.00012,
+      "cdom": 0.00008
+    },
+    "caustics": {
+      "enabled": false,
+      "frame_length": 0.045,
+      "texture": "textures/caustics/low/default",
+      "scale": 0.26,
+      "power": 3.6
+    },
+    "waves": {
+      "enabled": false,
+      "frequency": 0.78,
+      "octaves": 2,
+      "depth": 0.135,
+      "speed": 2.35,
+      "shape": 2.65,
+      "pull": 0.092,
+      "mix": 0.165,
+      "frequency_scaling": 1.082,
+      "speed_scaling": 1.094
+    }
+  }
+}

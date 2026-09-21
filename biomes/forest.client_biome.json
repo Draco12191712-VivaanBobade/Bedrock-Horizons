@@ -1,0 +1,31 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "forest"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "bh:forest_fog"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#74A8F0"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#3C7C9E"
+      },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "bh:forest_atmosphere"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "bh:forest_lighting"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "bh:forest_grading"
+      },
+      "minecraft:water_identifier": {
+        "water_identifier": "bh:default_water"
+      }
+    }
+  }
+}

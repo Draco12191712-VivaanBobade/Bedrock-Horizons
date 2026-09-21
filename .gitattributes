@@ -50,3 +50,20 @@ release/** linguist-generated=true
 *.cmd text eol=crlf
 *.ps1 text eol=crlf
 *.sh text eol=lf
+
+# Generated pack output -- produced by tools/build.py, not hand-edited.
+textures/blocks/** linguist-generated=true
+textures/items/** linguist-generated=true
+textures/entity/** linguist-generated=true
+textures/particle/** linguist-generated=true
+textures/caustics/** linguist-generated=true
+lighting/** linguist-generated=true
+atmospherics/** linguist-generated=true
+fogs/** linguist-generated=true
+color_grading/** linguist-generated=true
+water/** linguist-generated=true
+shadows/** linguist-generated=true
+local_lighting/** linguist-generated=true
+pbr/** linguist-generated=true
+biomes/** linguist-generated=true
+subpacks/** linguist-generated=true
